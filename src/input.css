@@ -16,5 +16,49 @@
     --violet: #7e33e0;
     --sub-text-color: #8a8fb9;
     --page-button-color: #e0d3f5;
-    --pink: #fb2e86;
+    --pink: #dc8fb0;
+  }
+  .slick-track{
+    display: flex;
+  }
+  .slick-list{
+    overflow: hidden;
+
+  }
+  .one-time{
+    position: relative;
+  }
+  .slick-prev{
+    margin-top: 35vh;
+    font-size: 0px;
+    position: absolute;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: red;
+    right: 20px;
+  }
+  .slick-next{
+    margin-top: -35vh;
+    font-size: 0px;
+    position: absolute;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: red;
+    left: 20px;
+  }
+  .slick-dots{
+    display: flex;
+   justify-content: center;
+   gap: 8px;
+  }
+  .slick-dots li{
+    font-size: 0px;
+     width: 8px;
+     height: 8px;
+     border: 2px solid #d838a3;
+     transform: rotate(45deg);
   }
